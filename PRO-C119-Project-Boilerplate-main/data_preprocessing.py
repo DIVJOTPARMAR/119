@@ -22,7 +22,7 @@ pattern_word_tags_list = [] #list of the pair of (['words', 'of', 'the', 'senten
 ignore_words = ['?', '!',',','.', "'s", "'m"]
 
 # open the JSON file, load data from it.
-train_data_file = open('PRO-C120-Project-Boilerplate-main/intents.json')
+train_data_file = open('PRO-C119-Project-Boilerplate-main/intents.json')
 data = json.load(train_data_file)
 train_data_file.close()
 
